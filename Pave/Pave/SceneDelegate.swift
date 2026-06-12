@@ -9,7 +9,7 @@ import HotwireNative
 import UIKit
 
 #if DEBUG
-let baseURL = URL(string: "localhost:3000")!
+let baseURL = URL(string: "http://localhost:3000")!
 #else
 let baseURL = URL(string: "https://pave-ai.cc")!
 #endif
